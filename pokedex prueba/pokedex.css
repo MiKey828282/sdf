@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+
+    font-family: 'Segoe UI';
+    background-image: url("https://cdn.vectorstock.com/i/2000v/69/24/seamless-pattern-pokemon-go-pokeball-background-vector-23236924.avif");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    -webkit-text-stroke: 6px #282828;
+    margin-top: 1em;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1em;
+    gap: 0.5em;
+}
+
+.search-pokemon {
+    color: #ffffff;
+    -webkit-text-stroke: 2px #282828;
+    font-size: 25px;
+}
+
+.search-container input{
+    font-size: 1em;
+    border: 3px solid #323232;
+    padding: 20px;
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+}
+
+.search-container button {
+    padding: 0.5em 1em;
+    font-size: 25px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+.search-container button:hover {
+    background-color: #000000;
+}
+
+.pokedex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #323232;
+    width: 370px;
+    align-self: center;
+}
+
+.pokedex-container h2 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 50px;
+    background-color: #323232;
+    color: #fff;
+}
+
+.pokedex-container img {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+}
+
+.pokedex-container p {
+    text-align: center;
+    margin: 0;
+    font-size:35px;
+    font-weight: bold;
+}
